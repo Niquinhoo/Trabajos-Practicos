@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    
+    <title>TP5</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+            text-align: center;
+        }
+        .matematicas {
+            background-color: #eb4343f4;
+        }
+
+        .expresion {
+            background-color: #d4f162;
+        }
+
+        .ingles {
+            background-color: #5cabf9;
+        }
+
+        .diseno {
+            background-color: #88fc8e;
+        }
+        
+        .cabezera {
+            background-color: #363636;
+            font-weight: bold;
+        }
+
+        .cabezeratop {
+            background-color: #000000;
+            font-weight: bold;
+        }
+
+        .colorfuentecabezera {
+            color: #ffffff;
+        }
+
+        .vacio {
+            background-color: #818181;
+        }
+        
+        .colorhorarios{
+            background-color: #363636;
+            color: #ffffff;
+        }
+    </style>
+<body>
+    <table>
+    <!--Head-->
+        <tr>
+            <th colspan="9" class="cabezeratop colorfuentecabezera">Programador Universitario de Sistemas</th>
+        </tr>
+        <tr>
+            <th colspan="9" class="cabezeratop colorfuentecabezera">1er AÑO - Primer Cuatrimestre</th>
+        </tr>
+            <tr>
+                <th class="cabezera colorfuentecabezera">Horario</th>
+                <th class="cabezera colorfuentecabezera">Lunes</th>
+                <th class="cabezera colorfuentecabezera">Martes</th>
+                <th colspan="2" class="cabezera colorfuentecabezera">Miércoles</th>
+                <th colspan="2" class="cabezera colorfuentecabezera">Jueves</th>
+                <th class="cabezera colorfuentecabezera">Viernes</th>
+                <th class="cabezera colorfuentecabezera">Sabado</th>
+            </tr>
+        <!--08:00 | 09:00-->
+            <tr>
+                <!--Horario--><td class="colorhorarios">08:00 | 09:00</td>
+                <!--lun--><td rowspan="2"class="ingles"><b>Inglés Técnico I <br>8am to 10pm</b><br>Auditorio <br>A. Iotti</td>
+                <!--Mar--><td></td>
+                <!--Mier--><td colspan="2"></td>
+                <!--Mier2-->
+                <!--Jue--><td rowspan="2" colspan="2" class="ingles"><b>Inglés Técnico I <br>8am to 10pm</b><br>Auditorio <br>A. Iotti</td>
+                <!--Jue2-->
+                <!--Vier--><td></td>
+                <!--Sáb--><td class="vacio"></td>
+            </tr>
+        <!--09:00 | 10:00-->
+            <tr>
+                <!--Horario--><td class="colorhorarios">09:00 | 10:00</td>
+                <!--Lun-->
+                <!--Mar--><td rowspan="3" class="matematicas"><b>Matematicas I <br>Comision 1 </b><br>9am to 12am <br>Aula 3 <br> F.Leonte</td>
+                <!--Mier--><td rowspan="4" class="expresion"><b>Expresion de Problemas y Algoritmos <br> Comision 2</b><br>9am to 13pm<br>Sala Informatica B <br>V. Torres</td>
+                <!--Mier2--><td rowspan="3" class="matematicas"><b>Matematicas I <br>Comision 2 y 3 </b><br>9am to 12am <br>Auditorio <br>J. Rodriguez-Piatti</td>
+                <!--Jue-->
+                <!--Jue2-->
+                <!--Vier--><td></td>
+                <!--Sab--><td class="vacio"></td>
+            </tr>
+        <!--10:00 | 11:00-->
+            <tr>
+                <!--Horario--><td class="colorhorarios">10:00 | 11:00</td>
+                <!--lun--><td></td>
+                <!--Mar-->
+                <!--Mier-->
+                <!--Mier2-->
+                <!--Jue--><td colspan="2"></td>
+                <!--Jue2-->
+                <!--Vier--><td></td>
+                <!--Sab--><td class="vacio"></td>
+            </tr>
+        <!--11:00 | 12:00-->
+            <tr>
+                <!--Horario--><td class="colorhorarios">11:00 | 12:00</td>
+                <!--lun--><td></td>
+                <!--Mar-->
+                <!--Mier-->
+                <!--Mier2-->
+                <!--Jue--><td colspan="2"></td>
+                <!--Jue2-->
+                <!--Vier--><td></td>
+                <!--Sab--><td class="vacio"></td>
+            </tr>
+        <!--12:00 | 13:00-->
+            <tr>
+                <!--Horario--><td class="colorhorarios">12:00 | 13:00</td>
+                <!--lun--><td></td>
+                <!--Mar--><td></td>
+                <!--Mier-->
+                <!--Mier2--><td></td>
+                <!--Jue--><td rowspan="2" class="diseno"><b>Diseño Web <br> Comision 1</b><br>12pm to 14pm <br>Sala Informatica B <br>P.Cavallie</td>
+                <!--Jue2--><td rowspan="2" class="diseno"><b>Diseño Web <br> Comision 4</b><br>12pm to 14pm <br>No definida<br>W. Agüero</td>
+                <!--Vier--><td></td>
+                <!--Sab--><td class="vacio"></td>
+            </tr>
+        <!--13:00 | 14:00-->
+            <tr>
+                <!--Horario--><td class="colorhorarios">13:00 | 14:00</td>
+                <!--lun--><td></td>
+                <!--Mar--><td></td>
+                <!--Mier--><td colspan="2"></td>
+                <!--Mier2-->
+                <!--Jue-->
+                <!--Jue2-->
+                <!--Vier--><td></td>
+                <!--Sab--><td class="vacio"></td>
+            </tr>
+        <!--14:00 | 15:00-->
+            <tr>
+                <!--Horario--><td class="colorhorarios">14:00 | 15:00</td>
+                <!--lun--><td rowspan="2" class="matematicas"><b>Matematicas I <br> Teoría </b><br>14pm to 16pm <br>Auditorio <br>J.Quiroga </td>
+                <!--Mar--><td></td>
+                <!--Mier--><td colspan="2"></td>
+                <!--Mier2-->
+                <!--Jue--><td colspan="2"></td>
+                <!--Jue2-->
+                <!--Vier--><td></td>
+                <!--Sab--><td class="vacio"></td>
+            </tr>
+        <!--15:00 | 16:00-->
+            <tr>
+                <!--Horario--><td class="colorhorarios">15:00 | 16:00</td>
+                <!--lun-->
+                <!--Mar--><td></td>
+                <!--Mier--><td colspan="2"></td>
+                <!--Mier2-->
+                <!--Jue--><td colspan="2"></td>
+                <!--Jue2-->
+                <!--Vier--><td></td>
+                <!--Sab--><td class="vacio"></td>
+            </tr>
+        <!--16:00 | 17:00-->
+            <tr>
+                <!--Horario--><td class="colorhorarios">16:00 | 17:00</td>
+                <!--lun--><td></td>
+                <!--Mar--><td></td>
+                <!--Mier--><td colspan="2"></td>
+                <!--Mier2-->
+                <!--Jue--><td colspan="2"></td>
+                <!--Jue2-->
+                <!--Vier--><td rowspan="4" class="expresion"><b>Expresion de Problemas y Algoritmos <br> Comision 1 </b><br>16pm to 20pm <br>Sala Informatica <br>R.Gomez</td>
+                <!--Sab--><td class="vacio"></td>
+            </tr>
+        <!--17:00 | 18:00-->
+            <tr>
+                <!--Horario--><td class="colorhorarios">17:00 | 18:00</td>
+                <!--lun--><td rowspan="2" class="diseno"><b>Diseño Web <br> Teoría </b><br>17pm to 19:30pm <br>Auditorio <br>W.Molina</td>
+                <!--Mar--><td></td>
+                <!--Mier--><td colspan="2"></td>
+                <!--Mier2-->
+                <!--Jue--><td rowspan="2" colspan="2" class="diseno"><b>Diseño Web <br>Comision 2</b><br>17pm to 19pm <br>Sala Informatica B <br>R.Silva</td>
+                <!--Jue2-->
+                <!--Vier-->
+                <!--Sab--><td class="vacio"></td>
+            </tr>
+        <!--18:00 | 19:00-->
+            <tr>
+                <!--Horario--><td class="colorhorarios">18:00 | 19:00</td>
+                <!--lun-->
+                <!--Mar--><td></td>
+                <!--Mier--><td colspan="2"></td>
+                <!--Mier2-->
+                <!--Jue-->
+                <!--Jue2-->
+                <!--Vier-->
+                <!--Sab--><td class="vacio"></td>
+            </tr>
+        <!--19:00 | 20:00-->
+            <tr>
+                <!--Horario--><td class="colorhorarios">19:00 | 20:00</td>
+                <!--lun--><td rowspan="3" class="expresion"><b>Expresión de Problemas y Algoritmos <br> Teoría </b><br>19:30pm to 22pm <br>Auditorio <br>W.Molina</td>
+                <!--Mar--><td></td>
+                <!--Mier--><td colspan="2"></td>
+                <!--Mier2-->
+                <!--Jue--><td rowspan="2" colspan="2" class="diseno"><b>Diseño Web <br>Comision 3 <br></b>19pm to 21pm<br> Sala Informatica B <br> R.Silva</td>
+                <!--Jue2-->
+                <!--Vier-->
+                <!--Sab--><td class="vacio"></td>
+            </tr>
+        <!--20:00 | 21:00-->
+            <tr>
+                <!--Horario--><td class="colorhorarios">20:00 | 21:00</td>
+                <!--lun-->
+                <!--Mar--><td></td>
+                <!--Mier--><td colspan="2"></td>
+                <!--Mier2-->
+                <!--Jue-->
+                <!--Jue2-->
+                <!--Vier--><td></td>
+                <!--Sab--><td class="vacio"></td>
+            </tr>
+        <!--21:00 | 22:00-->
+            <tr>
+                <!--Horario--><td class="colorhorarios">21:00 | 22:00</td>
+                <!--lun-->
+                <!--Mar--><td></td>
+                <!--Mier--><td colspan="2"></td>
+                <!--Mier2-->
+                <!--Jue--><td colspan="2"></td>
+                <!--Jue2-->
+                <!--Vier--><td></td>
+                <!--Sab--><td class="vacio"></td>
+            </tr>
+        <!--22:00 | 23:00-->
+            <tr>
+                <!--Horario--><td class="colorhorarios">22:00 | 23:00</td>
+                <!--lun--><td></td>
+                <!--Mar--><td></td>
+                <!--Mier--><td colspan="2"></td>
+                <!--Mier2-->
+                <!--Jue--><td colspan="2"></td>
+                <!--Jue2-->
+                <!--Vier--><td></td>
+                <!--Sab--><td class="vacio"></td>
+            </tr>
+    <!--Pie-->
+        <tr>
+            <th class="cabezeratop"></th>
+            <th class="cabezeratop colorfuentecabezera">9hrs</th>
+            <th class="cabezeratop colorfuentecabezera">3hrs</th>
+            <th class="cabezeratop colorfuentecabezera">4hrs</th>
+            <th class="cabezeratop colorfuentecabezera">3hrs</th>
+            <th colspan="2" class="cabezeratop colorfuentecabezera">4hrs</th>
+            <th class="cabezeratop colorfuentecabezera">4hrs</th>
+            <th class="cabezeratop"></th>
+        </tr>
+    </table>
+</body>
+</html>
