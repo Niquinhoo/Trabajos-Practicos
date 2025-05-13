@@ -8,9 +8,11 @@
         table, th, td {
             border: 1px solid black;
             border-collapse: collapse;
-            padding: 8px;
+            padding: 12px;
             text-align: center;
+            position: relative;
         }
+
         .matematicas {
             background-color: #eb4343f4;
         }
@@ -49,6 +51,46 @@
             background-color: #363636;
             color: #ffffff;
         }
+
+        .altura1-5diseno{
+            position: relative;
+            top: 30px;
+            border: 1px solid #000000;
+            border-collapse: collapse;
+        }
+
+        .ajuste1-5programacion{
+            position: relative;
+            top:30px;
+            border: 1px solid #000000;
+            border-collapse: collapse;
+            padding-bottom: 40px;
+        }
+
+        .fila19002000{
+            height: 30px;
+            position: relative;
+        }
+        
+        .fila17001800{
+            height: 60px;
+            padding-bottom: 30px;
+            position: relative;
+        }
+
+        /*fondo de la cabeza de la celda ayuda gpt*/
+        .altura1-5diseno::before {
+            content: "";
+            position: absolute;
+            top: -30px;
+            left: 0;
+            width: 100%;
+            height: 30px; 
+            background-color: #88fc8e;
+            border: 1px solid #88fc8e;
+            box-sizing: border-box;
+        }
+        
     </style>
 <body>
     <table>
@@ -177,9 +219,9 @@
                 <!--Sab--><td class="vacio"></td>
             </tr>
         <!--17:00 | 18:00-->
-            <tr>
+            <tr class="fila17001800">
                 <!--Horario--><td class="colorhorarios">17:00 | 18:00</td>
-                <!--lun--><td rowspan="2" class="diseno"><b>Diseño Web <br> Teoría </b><br>17pm to 19:30pm <br>Auditorio <br>W.Molina</td>
+                <!--lun--><td rowspan="2" class="diseno altura1-5diseno celdaAjustada"><b>Diseño Web <br> Teoría </b><br>17pm to 19:30pm <br>Auditorio <br>W.Molina</td>
                 <!--Mar--><td></td>
                 <!--Mier--><td colspan="2"></td>
                 <!--Mier2-->
@@ -201,9 +243,9 @@
                 <!--Sab--><td class="vacio"></td>
             </tr>
         <!--19:00 | 20:00-->
-            <tr>
+            <tr class="fila19002000">
                 <!--Horario--><td class="colorhorarios">19:00 | 20:00</td>
-                <!--lun--><td rowspan="3" class="expresion"><b>Expresión de Problemas y Algoritmos <br> Teoría </b><br>19:30pm to 22pm <br>Auditorio <br>W.Molina</td>
+                <!--lun--><td rowspan="3" class="expresion ajuste1-5programacion"><b>Expresión de Problemas y Algoritmos <br> Teoría </b><br>19:30pm to 22pm <br>Auditorio <br>W.Molina</td>
                 <!--Mar--><td></td>
                 <!--Mier--><td colspan="2"></td>
                 <!--Mier2-->
@@ -228,18 +270,6 @@
             <tr>
                 <!--Horario--><td class="colorhorarios">21:00 | 22:00</td>
                 <!--lun-->
-                <!--Mar--><td></td>
-                <!--Mier--><td colspan="2"></td>
-                <!--Mier2-->
-                <!--Jue--><td colspan="2"></td>
-                <!--Jue2-->
-                <!--Vier--><td></td>
-                <!--Sab--><td class="vacio"></td>
-            </tr>
-        <!--22:00 | 23:00-->
-            <tr>
-                <!--Horario--><td class="colorhorarios">22:00 | 23:00</td>
-                <!--lun--><td></td>
                 <!--Mar--><td></td>
                 <!--Mier--><td colspan="2"></td>
                 <!--Mier2-->
