@@ -1,0 +1,75 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+    }
+
+    header {
+      background-color: #f29100;
+      padding: 20px;
+      text-align: center;
+      color: black;
+      font-weight: bold;
+      font-size: 2em;
+    }
+
+    nav {
+      background-color: #d46000;
+      padding: 5px;
+      text-align: left;
+    }
+
+    nav a {
+      color: white;
+      margin-right: 10px;
+      text-decoration: none;
+      background-color: #a84300;
+      padding: 5px 10px;
+      border-radius: 3px;
+      font-size: 0.9em;
+    }
+
+    .contenido {
+      padding: 20px;
+    }
+
+    .contenido img {
+      width: 300px;
+      height: auto;
+      display: block;
+      margin: 10px auto;
+      display: inline-block;
+      margin: 10px;
+    }
+
+    .boton {
+      background-color: #d46000;
+      color: white;
+      padding: 8px 12px;
+      text-decoration: none;
+      border-radius: 3px;
+      display: inline-block;
+      font-weight: lighter;
+    }
+
+    footer {
+      background-color: #f29100;
+      text-align: center;
+      padding: 10px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      margin-top: 30px;
+    }
+
+    .titulo-receta {
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+
+    .tipografianormal {
+      font-size: 1em;
+      line-height: 1.5;
+      color: #333;
+    }
